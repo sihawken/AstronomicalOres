@@ -22,9 +22,9 @@ public class BlockMoonOre extends BlockOreBase {
     private static final String[] allSubtypes = Names.Blocks.MOON_ORE_SUBTYPES;
     private static final int oreCount = Names.Blocks.MOON_ORE_SUBTYPES.length;
 
-    public BlockMoonOre() {
+    public BlockMoonOre(float hardness, float resistance) {
         super(oreName, allSubtypes, oreCount);
-        this.setHardness(3.0F);
-        this.setResistance(5.0F);
+        this.setHardness(hardness);
+        this.setResistance(resistance);
     }
 }
