@@ -3,4 +3,13 @@ item.interstellarores:materialLunarium.chunk.name=Lunarium Chunk
 item.interstellarores:materialLunarium.plate.name=Compressed Lunarium
 
 # Block localizations
-tile.interstellarores:lunariumOre.name=Lunarium Ore
+tile.interstellarores:oreMoon.aluminum.name=Aluminum Ore
+tile.interstellarores:oreMoon.copper.name=Copper Ore
+tile.interstellarores:oreMoon.gold.name=Gold Ore
+tile.interstellarores:oreMoon.iron.name=Iron Ore
+tile.interstellarores:oreMoon.lead.name=Lead Ore
+tile.interstellarores:oreMoon.lunarium.name=Lunarium Ore
+tile.interstellarores:oreMoon.nickel.name=Nickel Ore
+tile.interstellarores:oreMoon.osmium.name=Osmium Ore
+tile.interstellarores:oreMoon.silver.name=Silver Ore
+tile.interstellarores:oreMoon.tin.name=Tin Ore

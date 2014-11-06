@@ -9,6 +9,12 @@ public class Names {
         public static final String MOON_ORE = "oreMoon";
         public static final String MARS_ORE = "oreMars";
         public static final String ASTEROID_ORE = "oreAsteroid";
+        public static final String ICE_ORE = "oreIce";
+
+        public static final String[] MOON_ORE_SUBTYPES = {"iron","gold","copper","tin","lead","silver","nickel","aluminum","osmium","lunarium"};
+        public static final String[] MARS_ORE_SUBTYPES = {"iron","gold","copper","tin","lead","silver","nickel","aluminum","osmium","uranium"};
+        public static final String[] ASTEROID_ORE_SUBTYPES = {"diamond","platinum","quartz","chargedQuartz"};
+        public static final String[] ICE_ORE_SUBTYPES = {"diamond","platinum","quartz","chargedQuartz"};
     }
 
     public static final class Items {
