@@ -1,4 +1,6 @@
 # Item localizations
-item.interstellarores:lunariumChunk.name=Lunarium Chunk
+item.interstellarores:materialLunarium.chunk.name=Lunarium Chunk
+item.interstellarores:materialLunarium.plate.name=Compressed Lunarium
+
 # Block localizations
 tile.interstellarores:lunariumOre.name=Lunarium Ore

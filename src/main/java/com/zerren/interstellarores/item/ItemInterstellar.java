@@ -15,7 +15,7 @@ public class ItemInterstellar extends Item {
 
     public ItemInterstellar() {
         super();
-        this.maxStackSize = 1;
+        this.maxStackSize = 64;
         this.setCreativeTab(CreativeTabs.tabMaterials);
         this.setNoRepair();
     }

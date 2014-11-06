@@ -2,6 +2,7 @@ package com.zerren.interstellarores;
 
 import com.zerren.interstellarores.item.ItemInterstellar;
 import com.zerren.interstellarores.item.ItemLunarium;
+import com.zerren.interstellarores.reference.Names;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 /**
@@ -12,6 +13,6 @@ public class ModItems {
     public static final ItemInterstellar lunariumMaterial = new ItemLunarium();
 
     public static void init() {
-        GameRegistry.registerItem(lunariumMaterial, "lunariumMaterial");
+        GameRegistry.registerItem(lunariumMaterial, Names.Items.LUNARIUM);
     }
 }
