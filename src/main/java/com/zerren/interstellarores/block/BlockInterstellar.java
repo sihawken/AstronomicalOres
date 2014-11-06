@@ -7,7 +7,10 @@ import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
 import net.minecraft.util.IIcon;
+
+import java.util.Random;
 
 /**
  * Created by Zerren on 11/5/2014.
@@ -21,6 +24,16 @@ public class BlockInterstellar extends Block {
     public BlockInterstellar() {
         this(Material.rock);
         this.setCreativeTab(CreativeTabs.tabBlock);
+    }
+
+    @Override
+    public Item getItemDropped(int par1, Random random, int par2) {
+        return Item.getItemFromBlock(this);
+    }
+
+    @Override
+    public int damageDropped(int meta) {
+        return meta;
     }
 
     @Override
