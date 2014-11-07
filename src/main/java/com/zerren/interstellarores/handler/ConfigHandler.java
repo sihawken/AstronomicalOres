@@ -13,7 +13,7 @@ import java.io.File;
 public class ConfigHandler {
 
     public static Configuration config;
-    public static boolean testValue = false;
+    public static boolean appEngModule = true;
 
     public static void init(File configFile){
         
@@ -24,7 +24,7 @@ public class ConfigHandler {
     }
 
     private static void loadConfig() {
-        testValue = config.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "This is an example");
+        appEngModule = config.getBoolean("appEngModule", Configuration.CATEGORY_GENERAL, true, "Should the Applied Energistics module be loaded (Asteroid Quartz will drop Nether Quartz if false");
 
         if (config.hasChanged()) {
             config.save();

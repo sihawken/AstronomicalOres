@@ -3,6 +3,7 @@ package com.zerren.interstellarores.block;
 import com.zerren.interstellarores.reference.Names;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -23,11 +24,18 @@ public class BlockOreBase extends BlockInterstellar {
     private int oreCount2;
     private String[] allSubtypes2;
 
+    //For use with ores that aren't stone (ice, gravel)
+    public BlockOreBase(String oreName, String[] allSubtypes, int oreCount, Material material) {
+        super(material);
+        this.setBlockName(oreName);
+        oreCount2 = oreCount;
+        allSubtypes2 = allSubtypes;
+    }
+
+    //Every other ore (stone)
     public BlockOreBase(String oreName, String[] allSubtypes, int oreCount) {
         super();
         this.setBlockName(oreName);
-        this.setHardness(3.0F);
-        this.setResistance(5.0F);
         oreCount2 = oreCount;
         allSubtypes2 = allSubtypes;
     }

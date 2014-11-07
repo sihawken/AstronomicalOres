@@ -15,7 +15,7 @@ public class ModBlocks {
     public static final BlockOreBase moonOre = new BlockMoonOre(3.0F, 5.0F);
     public static final BlockOreBase marsOre = new BlockMarsOre(3.0F, 5.0F);
     public static final BlockOreBase asteroidOre = new BlockAsteroidOre(3.0F, 5.0F);
-    public static final BlockOreBase iceOre = new BlockIceOre(3.0F, 5.0F);
+    public static final BlockOreBase iceOre = new BlockIceOre(2.0F, 3.0F);
 
     public static void init() {
         GameRegistry.registerBlock(moonOre, ItemBlockMoonOre.class, Names.Blocks.MOON_ORE);
