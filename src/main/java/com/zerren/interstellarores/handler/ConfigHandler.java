@@ -14,6 +14,7 @@ public class ConfigHandler {
 
     public static Configuration config;
     public static boolean appEngModule = true;
+    public static boolean creativeTab = false;
 
     public static void init(File configFile){
         
@@ -25,6 +26,7 @@ public class ConfigHandler {
 
     private static void loadConfig() {
         appEngModule = config.getBoolean("appEngModule", Configuration.CATEGORY_GENERAL, true, "Should the Applied Energistics module be loaded (Asteroid Quartz will drop Nether Quartz if false");
+        creativeTab = config.getBoolean("creativeTab", Configuration.CATEGORY_GENERAL, false, "Should ore blocks be in the (Blocks) Creative Tab");
 
         if (config.hasChanged()) {
             config.save();

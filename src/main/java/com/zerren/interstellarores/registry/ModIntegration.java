@@ -4,11 +4,8 @@ import appeng.api.AEApi;
 import appeng.api.definitions.Materials;
 import com.zerren.interstellarores.handler.ConfigHandler;
 import cpw.mods.fml.common.Loader;
-import net.minecraft.block.Block;
 import net.minecraft.init.Items;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
-import sun.security.krb5.Config;
 
 /**
  * Created by Zerren on 11/6/2014.

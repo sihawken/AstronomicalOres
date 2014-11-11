@@ -38,11 +38,12 @@ public class InterstellarDictionary {
         OreDictionary.registerOre("oreDiamond", new ItemStack(ModBlocks.asteroidOre, 1, 0));
         OreDictionary.registerOre("orePlatinum", new ItemStack(ModBlocks.asteroidOre, 1, 1));
         OreDictionary.registerOre("oreCertusQuartz", new ItemStack(ModBlocks.asteroidOre, 1, 2));
-        OreDictionary.registerOre("oreCertusQuartzCharged", new ItemStack(ModBlocks.asteroidOre, 1, 3));
+        OreDictionary.registerOre("oreCertusQuartz", new ItemStack(ModBlocks.asteroidOre, 1, 3));
         //ice
         OreDictionary.registerOre("oreDiamond", new ItemStack(ModBlocks.iceOre, 1, 0));
         OreDictionary.registerOre("orePlatinum", new ItemStack(ModBlocks.iceOre, 1, 1));
         OreDictionary.registerOre("oreCertusQuartz", new ItemStack(ModBlocks.iceOre, 1, 2));
-        OreDictionary.registerOre("oreCertusQuartzCharged", new ItemStack(ModBlocks.iceOre, 1, 3));
+        OreDictionary.registerOre("oreCertusQuartz", new ItemStack(ModBlocks.iceOre, 1, 3));
+
     }
 }

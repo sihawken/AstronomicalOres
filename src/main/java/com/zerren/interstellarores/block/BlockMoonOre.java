@@ -1,6 +1,9 @@
 package com.zerren.interstellarores.block;
 
+import com.zerren.interstellarores.ModBlocks;
+import com.zerren.interstellarores.ModItems;
 import com.zerren.interstellarores.reference.Names;
+import com.zerren.interstellarores.registry.ModIntegration;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -26,5 +29,20 @@ public class BlockMoonOre extends BlockOreBase {
         super(oreName, allSubtypes, oreCount);
         this.setHardness(hardness);
         this.setResistance(resistance);
+    }
+
+    public Item getItemDropped(int par1, Random random, int par2) {
+
+        switch (par1) {
+            case 9: return ModItems.lunariumMaterial;
+        }
+        return Item.getItemFromBlock(this);
+    }
+
+    public int damageDropped(int meta) {
+        switch (meta) {
+            case 9: return 0; //Lunarium
+        }
+        return meta;
     }
 }

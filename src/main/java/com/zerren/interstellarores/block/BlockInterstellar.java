@@ -1,5 +1,6 @@
 package com.zerren.interstellarores.block;
 
+import com.zerren.interstellarores.handler.ConfigHandler;
 import com.zerren.interstellarores.reference.Textures;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -23,7 +24,10 @@ public class BlockInterstellar extends Block {
 
     public BlockInterstellar() {
         this(Material.rock);
-        this.setCreativeTab(CreativeTabs.tabBlock);
+
+        if (ConfigHandler.creativeTab) {
+            this.setCreativeTab(CreativeTabs.tabBlock);
+        }
     }
 
     @Override
