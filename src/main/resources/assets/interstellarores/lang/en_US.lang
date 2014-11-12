@@ -17,6 +17,7 @@ tile.interstellarores:oreMoon.nickel.name=Nickel Ore
 tile.interstellarores:oreMoon.osmium.name=Osmium Ore
 tile.interstellarores:oreMoon.silver.name=Silver Ore
 tile.interstellarores:oreMoon.tin.name=Tin Ore
+tile.interstellarores:oreMoon.platinum.name=Platinum Ore
 
 # Mars ores
 tile.interstellarores:oreMars.aluminum.name=Aluminum Ore
@@ -29,6 +30,8 @@ tile.interstellarores:oreMars.nickel.name=Nickel Ore
 tile.interstellarores:oreMars.osmium.name=Osmium Ore
 tile.interstellarores:oreMars.silver.name=Silver Ore
 tile.interstellarores:oreMars.tin.name=Tin Ore
+tile.interstellarores:oreMars.platinum.name=Platinum Ore
+
 
 # Asteroid (stone 3) ores
 tile.interstellarores:oreAsteroid.diamond.name=Diamond Ore
