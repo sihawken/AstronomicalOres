@@ -1,6 +1,5 @@
 package com.zerren.interstellarores.block;
 
-import com.zerren.interstellarores.ModBlocks;
 import com.zerren.interstellarores.reference.Names;
 import com.zerren.interstellarores.registry.ModIntegration;
 import net.minecraft.item.Item;
@@ -12,7 +11,7 @@ import java.util.Random;
 /**
  * Created by Zerren on 11/5/2014.
  */
-public class BlockIceOre extends BlockOreBase {
+public class BlockIceOre extends BlockMetaBase {
 
     private static final String oreName = Names.Blocks.ICE_ORE;
     private static final String[] allSubtypes = Names.Blocks.ICE_ORE_SUBTYPES;

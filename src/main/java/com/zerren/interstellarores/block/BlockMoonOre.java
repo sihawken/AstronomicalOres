@@ -1,26 +1,18 @@
 package com.zerren.interstellarores.block;
 
-import com.zerren.interstellarores.ModBlocks;
 import com.zerren.interstellarores.ModItems;
 import com.zerren.interstellarores.reference.Names;
-import com.zerren.interstellarores.registry.ModIntegration;
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
-import net.minecraft.client.renderer.texture.IIconRegister;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
-import net.minecraft.util.IIcon;
 import net.minecraft.util.MathHelper;
+import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
-import java.util.List;
 import java.util.Random;
 
 /**
  * Created by Zerren on 11/5/2014.
  */
-public class BlockMoonOre extends BlockOreBase {
+public class BlockMoonOre extends BlockMetaBase {
 
     private static final String oreName = Names.Blocks.MOON_ORE;
     private static final String[] allSubtypes = Names.Blocks.MOON_ORE_SUBTYPES;
@@ -39,6 +31,15 @@ public class BlockMoonOre extends BlockOreBase {
             case 9: return ModItems.lunariumMaterial;
 
             default: return Item.getItemFromBlock(this);
+        }
+    }
+
+    @Override
+    public int getLightValue(IBlockAccess world, int x, int y, int z) {
+        int meta = world.getBlockMetadata(x, y, z);
+        switch (meta) {
+            case 9: return 5;
+            default: return 0;
         }
     }
 

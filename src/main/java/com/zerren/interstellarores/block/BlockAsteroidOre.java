@@ -1,26 +1,17 @@
 package com.zerren.interstellarores.block;
 
-import com.zerren.interstellarores.ModBlocks;
 import com.zerren.interstellarores.reference.Names;
 import com.zerren.interstellarores.registry.ModIntegration;
-import cpw.mods.fml.relauncher.Side;
-import cpw.mods.fml.relauncher.SideOnly;
-import net.minecraft.client.renderer.texture.IIconRegister;
-import net.minecraft.creativetab.CreativeTabs;
-import net.minecraft.init.Items;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemStack;
-import net.minecraft.util.IIcon;
 import net.minecraft.util.MathHelper;
 import net.minecraft.world.World;
 
-import java.util.List;
 import java.util.Random;
 
 /**
  * Created by Zerren on 11/5/2014.
  */
-public class BlockAsteroidOre extends BlockOreBase {
+public class BlockAsteroidOre extends BlockMetaBase {
 
     private static final String oreName = Names.Blocks.ASTEROID_ORE;
     private static final String[] allSubtypes = Names.Blocks.ASTEROID_ORE_SUBTYPES;

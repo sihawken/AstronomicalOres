@@ -20,6 +20,10 @@ public class BlockInterstellar extends Block {
 
     public BlockInterstellar(Material material) {
         super(material);
+
+        if (ConfigHandler.creativeTab) {
+            this.setCreativeTab(CreativeTabs.tabBlock);
+        }
     }
 
     public BlockInterstellar() {

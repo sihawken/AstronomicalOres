@@ -3,6 +3,8 @@
 # Lunarium
 item.interstellarores:materialLunarium.chunk.name=Lunarium Chunk
 item.interstellarores:materialLunarium.plate.name=Compressed Lunarium
+item.interstellarores:materialLunarium.wafer.name=Lunarium-Doped Wafer
+
 
 # Block localizations ----------------------------------------
 
@@ -32,7 +34,6 @@ tile.interstellarores:oreMars.silver.name=Silver Ore
 tile.interstellarores:oreMars.tin.name=Tin Ore
 tile.interstellarores:oreMars.platinum.name=Platinum Ore
 
-
 # Asteroid (stone 3) ores
 tile.interstellarores:oreAsteroid.diamond.name=Diamond Ore
 tile.interstellarores:oreAsteroid.platinum.name=Platinum Ore
@@ -44,3 +45,6 @@ tile.interstellarores:oreIce.diamond.name=Icy Diamond Ore
 tile.interstellarores:oreIce.platinum.name=Icy Platinum Ore
 tile.interstellarores:oreIce.quartz.name=Icy Certus Quartz Ore
 tile.interstellarores:oreIce.quartzCharged.name=Icy Charged Certus Quartz Ore
+
+#Metal blocks
+tile.interstellarores:metal.lunarium.name=Lunarium Block

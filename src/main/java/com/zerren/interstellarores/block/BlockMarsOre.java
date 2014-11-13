@@ -5,7 +5,7 @@ import com.zerren.interstellarores.reference.Names;
 /**
  * Created by Zerren on 11/5/2014.
  */
-public class BlockMarsOre extends BlockOreBase {
+public class BlockMarsOre extends BlockMetaBase {
 
     private static final String oreName = Names.Blocks.MARS_ORE;
     private static final String[] allSubtypes = Names.Blocks.MARS_ORE_SUBTYPES;

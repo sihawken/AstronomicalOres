@@ -5,6 +5,7 @@ import com.zerren.interstellarores.proxy.IProxy;
 import com.zerren.interstellarores.reference.Reference;
 import com.zerren.interstellarores.registry.InterstellarDictionary;
 import com.zerren.interstellarores.registry.ModIntegration;
+import com.zerren.interstellarores.registry.Recipes;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
@@ -37,7 +38,7 @@ public class InterstellarOres {
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
-
+        Recipes.init();
     }
 
     @Mod.EventHandler

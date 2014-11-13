@@ -1,6 +1,7 @@
 package com.zerren.interstellarores.registry;
 
 import com.zerren.interstellarores.ModBlocks;
+import com.zerren.interstellarores.ModItems;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
@@ -12,6 +13,8 @@ import net.minecraftforge.oredict.OreDictionary;
 public class InterstellarDictionary {
 
     public static void registerOreRecipes(){
+        //blocks
+
         //moon
         OreDictionary.registerOre("oreIron", new ItemStack(ModBlocks.moonOre, 1, 0));
         OreDictionary.registerOre("oreGold", new ItemStack(ModBlocks.moonOre, 1, 1));
@@ -46,6 +49,15 @@ public class InterstellarDictionary {
         OreDictionary.registerOre("orePlatinum", new ItemStack(ModBlocks.iceOre, 1, 1));
         OreDictionary.registerOre("oreCertusQuartz", new ItemStack(ModBlocks.iceOre, 1, 2));
         OreDictionary.registerOre("oreCertusQuartz", new ItemStack(ModBlocks.iceOre, 1, 3));
+        //metals
+        OreDictionary.registerOre("blockLunarium", new ItemStack(ModBlocks.interstellarMetal, 1, 0));
 
+        //items
+
+        //Lunarium Chunk
+        OreDictionary.registerOre("materialLunarium", new ItemStack(ModItems.lunariumMaterial, 1, 0));
+        //Lunarium Plate
+        OreDictionary.registerOre("plateLunarium", new ItemStack(ModItems.lunariumMaterial, 1, 1));
+        OreDictionary.registerOre("compressedLunarium", new ItemStack(ModItems.lunariumMaterial, 1, 1));
     }
 }
