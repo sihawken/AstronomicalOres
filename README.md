@@ -1,8 +1,10 @@
 InterstellarOres
 ================
 
-A small mod built for the http://fluxgalaxy.com/ modpack that recreates all metal ores the with Galacticraft stone textures for better visuals.
+A fork of the mod InterstellarOres by Zerrens
 
-Ore dictionary conventions are default: oreName (orePlatinum oreUranium oreLunarium).
+AFAIK, This is allowed by the GNU GPL. I can be contacted on esper as n0rw0lf or n0rw0lf_. I am often online.
 
-Item conventions are similar: materialName, plateName, compressedName, waferName. (materialLunarium plateLunarium).
+This version is being used for the future modpack Torch.IO. This modpack is not available yet, but will be soon.
+
+This mod will be verbatim the same except will have different ores.
