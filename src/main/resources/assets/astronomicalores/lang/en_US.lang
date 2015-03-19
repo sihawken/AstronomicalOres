@@ -1,0 +1,38 @@
+# Tab localization -------------------------------------------
+
+itemGroup.AstronomicalOres=Astronomical Ores
+
+# Item localizations -----------------------------------------
+
+
+# Block localizations ----------------------------------------
+
+# Moon ores
+tile.astronomicalores:oreMoon.redstone.name=Redstone Ore
+tile.astronomicalores:oreMoon.quartz.name=Certus Quartz Ore
+tile.astronomicalores:oreMoon.quartzCharged.name=Charged Certus Quartz Ore
+tile.astronomicalores:oreMoon.osmium.name=Osmium Ore
+tile.astronomicalores:oreMoon.iron.name=Iron Ore
+tile.astronomicalores:oreMoon.silver.name=Silver Ore
+tile.astronomicalores:oreMoon.olivine.name=Olivine Ore
+
+# Mars
+tile.astronomicalores:oreMars.platinum.name=Shiny Ore
+tile.astronomicalores:oreMars.gold.name=Gold Ore
+tile.astronomicalores:oreMars.cobalt.name=Cobalt Ore
+tile.astronomicalores:oreMars.ardite.name=Ardite Ore
+tile.astronomicalores:oreMars.chromium.name=Chromium Ore
+
+# Asteroid (stone 3) ores
+tile.astronomicalores:oreAsteroid.naquadah.name=Naquadah Ore
+tile.astronomicalores:oreAsteroid.diamond.name=Diamond Ore
+
+# Asteroid (ice) ores
+tile.astronomicalores:oreIce.diamond.name=Diamond Ore
+tile.astronomicalores:oreIce.mythril.name=Mana Infused Ore
+tile.astronomicalores:oreIce.adamantium.name=Adamantium Ore
+
+# Metal blocks
+tile.astronomicalores:metal.olivine.name=Olivine Block
+tile.astronomicalores:metal.chromium.name=Chromium Block
+tile.astronomicalores:metal.adamantium.name=Adamantium Block
